@@ -1,0 +1,48 @@
+*, 
+:after, 
+:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color: inherit;
+}
+
+body {
+    background-color: rgb(201, 198, 204);
+    size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head-board {
+    font-family: "Poppins", sans-serif;
+    font-size: larger;
+    color: whitesmoke;
+    background-color:   rgb(59, 55, 65);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+.body-container {
+    padding: 1em 2em 1em 2em;
+    font-size: large;
+    color:rgb(52, 48, 58);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body-container h1 {
+    text-align: center;
+}
+.body-container ul {
+    padding: 1em 2em 1em 2em;
+}
+
+.body-container img {
+    overflow: visible;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    width: 40%;
+}
